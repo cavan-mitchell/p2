@@ -1,5 +1,5 @@
 {
-  "homepage": "https://cavan_mitchell.github.io/portfoliocm2",
+  "homepage": "https://cavan_mitchell.github.io/p2",
   "name": "client",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
@@ -49,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages-deploy": "^0.5.1"
   }
 }
