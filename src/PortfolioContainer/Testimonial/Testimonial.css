@@ -87,9 +87,8 @@
   border-color: black;
   left: 0;
   top: 0;
-  padding-right: 20px;
+  padding-right: 0px;
   position: relative;
-
 }
 
 .testimonial-section .client-info h5 {

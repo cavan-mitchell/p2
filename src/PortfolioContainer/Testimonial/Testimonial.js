@@ -62,32 +62,6 @@ export default function Testimonial(props) {
 
               <div className="col-lg-12">
                 <div className="testi-item">
-                  {/* <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
-                      <i className="fa fa-quote-right" />
-                    </p> 
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>*/}
                   <div className="client-info">
                     <img src={real} alt="no internet connection"></img>
                     <h5> www.real-coin.com</h5>
@@ -98,32 +72,6 @@ export default function Testimonial(props) {
 
               <div className="col-lg-12">
                 <div className="testi-item">
-                  {/*<div className="testi-comment">
-                     <p>
-                      <i className="fa fa-quote-left" />
-                      It was nice hiring this guy for my e-commerce project.He
-                      delivered even more than i can imagine. I recommend him
-                      for you.
-                      <i className="fa fa-quote-right" />
-                    </p> 
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>*/}
                   <div className="client-info">
                     <img src={smart} alt="no internet connection"></img>
                     <h5>www.smartcityoutlet.com</h5>
@@ -133,32 +81,6 @@ export default function Testimonial(props) {
               </div>
               <div className="col-lg-12">
                 <div className="testi-item">
-                  {/*<div className="testi-comment">
-                     <p>
-                      <i className="fa fa-quote-left" />
-                      When he delivered my job, my head spinned, it was so nice
-                      and he implemented every functionality i requested for.
-                      Thank you.
-                      <i className="fa fa-quote-right" />
-                    </p>  
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>*/}
                   <div className="client-info">
                     <img src={give} alt="no internet connection"></img>
                     <h5>www.51Give.org</h5>
@@ -169,27 +91,14 @@ export default function Testimonial(props) {
 
               <div className="col-lg-12">
                 <div className="testi-item">
-                  <div className="testi-comment">
-                    {/* <p>
-                      <i className="fa fa-quote-left" />
-                      This guy is incredibly awesome, I hired him and when He
-                      delivered, I honestly fell in love with the project. He is
-                      indeed a great guy,
-                      <i className="fa fa-quote-right" />
-                    </p> */}
-
-                  </div>
+                  <div className="testi-comment"></div>
                   <div className="client-info">
-
-
                     <img src={masenix} alt="no internet connection"></img>
                     <h5>www.masenix.com</h5>
                     <p>PPE Related Products - Ecommerce</p>
                   </div>
                 </div>
               </div>
-
-
             </OwlCarousel>
           </div>
         </div>
