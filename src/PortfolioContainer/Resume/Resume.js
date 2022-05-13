@@ -54,13 +54,15 @@ const Resume = (props) => {
   //here we have
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 65 },
-    { skill: "Photoshop", ratingPercentage: 85 },
+    { skill: "Solidity", ratingPercentage: 65 },
     { skill: "React JS", ratingPercentage: 65 },
-    { skill: "Premiere Pro", ratingPercentage: 89 },
-    { skill: "HTML", ratingPercentage: 80 },
-    { skill: "Audacity", ratingPercentage: 80 },
-    { skill: "CSS", ratingPercentage: 80 },
+    { skill: "Next JS", ratingPercentage: 65 },
+    { skill: "HTML & CSS", ratingPercentage: 80 },
+    { skill: "Tailwind CSS", ratingPercentage: 80 },
+    { skill: "Sanity", ratingPercentage: 70 },
     { skill: "Google & Facebook Analytics", ratingPercentage: 80 },
+    { skill: "Premiere Pro", ratingPercentage: 89 },
+    { skill: "Photoshop", ratingPercentage: 85 },
   ];
 
   const projectsDetails = [
@@ -77,10 +79,8 @@ const Resume = (props) => {
       duration: { fromDate: "2021", toDate: "2022" },
       description:
         "Blockchain based site for transacting Real Estate via smart contracts",
-      subHeading:
-        "Used: React Js, Node JS, Redux, Bootstrap, Solidity.",
+      subHeading: "Used: React Js, Node JS, Redux, Bootstrap, Solidity.",
     },
-
 
     {
       title: "Smart City Outlet - Ecommerce Website ",
@@ -91,7 +91,6 @@ const Resume = (props) => {
         "Used:  Wordpress, Magento 2, UPS Shipping Integration, Payment Integrations.",
     },
 
-
     {
       title: "Masenix - Ecommerce Website ",
       duration: { fromDate: "2019", toDate: "2022" },
@@ -99,8 +98,7 @@ const Resume = (props) => {
         "Online ecommerce site for selling PPE products online with payment system integration",
       subHeading:
         "Used: Wordpress, WooCommerce, UPS Shipping Integration, Payment Integrations.",
-    }
-
+    },
   ];
 
   const resumeDetails = [
@@ -125,7 +123,6 @@ const Resume = (props) => {
         fromDate={"2013"}
         toDate={"2015"}
       />
-
     </div>,
 
     /* WORK EXPERIENCE */
@@ -133,13 +130,16 @@ const Resume = (props) => {
       <div className="experience-container">
         <ResumeHeading
           heading={"Red Rock Properties"}
-          subHeading={"Real Estate Investor focused on Short Term Rentals (STR)"}
+          subHeading={
+            "Real Estate Investor focused on Short Term Rentals (STR)"
+          }
           fromDate={"2021"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as operator of real estate portfolio managing a property management team.
+            Currently working as operator of real estate portfolio managing a
+            property management team.
           </span>
         </div>
         <div className="experience-description">
