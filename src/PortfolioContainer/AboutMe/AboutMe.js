@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -63,10 +63,7 @@ export default function AboutMe(props) {
                 {" "}
                 Hire Me{" "}
               </button>
-              <a
-                href="cavanmitchellcv.pdf"
-                download="Cavan Mitchell Resume.pdf"
-              >
+              <a href="cavancv.pdf" download="Cavan Mitchell Resume.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
