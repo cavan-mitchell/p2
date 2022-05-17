@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.cavanmitchell.com",
+  "homepage": "https://cavanmitchell.com",
   "name": "client",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
